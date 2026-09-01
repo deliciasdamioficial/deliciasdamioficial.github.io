@@ -13,19 +13,17 @@
     <link rel="stylesheet" href="estilo.css">
 
     <!-- CSS PARA CELULAR -->
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo_mobile.css">
 
-    <!-- Google Fonts -->
+    <!-- GOOGLE FONTS -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-    <!-- Font Awesome -->
+    <!-- FONT AWESOME -->
     <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    >
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
@@ -42,55 +40,30 @@
         <div class="logo">
 
             <img
-                src="logo.png"
-                alt="Delícias da Mi"
-            >
+                src="./logo.png"
+                alt="Delícias da Mi">
 
         </div>
 
 
         <nav>
 
-            <a href="#inicio">
-                Início
-            </a>
-
-            <a href="#sobre">
-                Sobre
-            </a>
-
-            <a href="#produtos">
-                Bolos
-            </a>
-
-            <a href="#avaliacoes">
-                Avaliações
-            </a>
-
-            <a href="#contato">
-                Contato
-            </a>
-
-            <a
-                href="https://wa.me/5514996885936"
-                target="_blank"
-            >
-                🍰 Aceitamos Encomendas
-            </a>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Bolos</a>
+            <a href="#avaliacoes">Avaliações</a>
+            <a href="#contato">Contato</a>
 
         </nav>
 
 
         <div
             class="carrinho-icon"
-            onclick="abrirCarrinho()"
-        >
+            onclick="abrirCarrinho()">
 
             <i class="fa-solid fa-cart-shopping"></i>
 
-            <span id="contador">
-                0
-            </span>
+            <span id="contador">0</span>
 
         </div>
 
@@ -100,12 +73,12 @@
 
 
 
-<!-- ================= HERO ================= -->
+<!-- ================= INÍCIO ================= -->
 
 <section
     id="inicio"
-    class="hero"
->
+    class="hero">
+
 
     <div class="hero-texto">
 
@@ -118,6 +91,8 @@
 
             O sabor que adoça o seu dia!
 
+            <br>
+
             Bolos artesanais preparados com carinho
             para deixar qualquer momento mais especial.
 
@@ -126,31 +101,34 @@
 
         <a
             href="#produtos"
-            class="btn"
-        >
+            class="btn">
+
             Ver Cardápio
+
         </a>
 
 
         <a
             href="https://wa.me/5514996885936"
-            target="_blank"
-            class="btn2"
-        >
+            class="btn2">
+
             Fazer Pedido
+
         </a>
 
+
     </div>
+
 
 
     <div class="hero-imagem">
 
         <img
-            src="imagens/logo.png"
-            alt="Logo Delícias da Mi"
-        >
+            src="./logo.png"
+            alt="Logo Delícias da Mi">
 
     </div>
+
 
 </section>
 
@@ -159,6 +137,7 @@
 <!-- ================= SOBRE ================= -->
 
 <section id="sobre">
+
 
     <h2>
         Sobre Nós
@@ -174,6 +153,7 @@
 
     </p>
 
+
 </section>
 
 
@@ -182,8 +162,9 @@
 
 <section id="produtos">
 
+
     <h2>
-        Nossos Bolos
+        Nossos Produtos
     </h2>
 
 
@@ -195,9 +176,8 @@
         <div class="card">
 
             <img
-                src="brigadeiro.jpg"
-                alt="Bolo de Brigadeiro"
-            >
+                src="./brigadeiro.jpg"
+                alt="Bolo de Brigadeiro">
 
             <h3>
                 Brigadeiro
@@ -212,9 +192,10 @@
             </h4>
 
             <button
-                onclick="adicionar('Brigadeiro',12)"
-            >
+                onclick="adicionar('Brigadeiro',12)">
+
                 Adicionar
+
             </button>
 
         </div>
@@ -226,9 +207,8 @@
         <div class="card">
 
             <img
-                src="dois-amores.jpg"
-                alt="Bolo Dois Amores"
-            >
+                src="./dois-amores.jpg"
+                alt="Bolo Dois Amores">
 
             <h3>
                 Dois Amores
@@ -243,9 +223,10 @@
             </h4>
 
             <button
-                onclick="adicionar('Dois Amores',12)"
-            >
+                onclick="adicionar('Dois Amores',12)">
+
                 Adicionar
+
             </button>
 
         </div>
@@ -257,9 +238,8 @@
         <div class="card">
 
             <img
-                src="prestigio.jpg"
-                alt="Bolo Prestígio"
-            >
+                src="./prestigio.jpg"
+                alt="Bolo Prestígio">
 
             <h3>
                 Prestígio
@@ -274,26 +254,26 @@
             </h4>
 
             <button
-                onclick="adicionar('Prestígio',12)"
-            >
+                onclick="adicionar('Prestígio',12)">
+
                 Adicionar
+
             </button>
 
         </div>
 
 
 
-        <!-- TORTINHA DE LIMÃO E MORANGO -->
+        <!-- TORTINHA DE LIMÃO COM MORANGO -->
 
         <div class="card">
 
             <img
-                src="tortinha-limao-morango.jpg"
-                alt="Tortinha de Limão e Morango"
-            >
+                src="./tortinha-limao-morango.jpg"
+                alt="Tortinha de Limão com Morango">
 
             <h3>
-                Tortinha de Limão e Morango
+                Tortinha de Limão com Morango
             </h3>
 
             <p>
@@ -305,30 +285,30 @@
             </h4>
 
             <button
-                onclick="adicionar('Tortinha de Limão e Morango',10)"
-            >
+                onclick="adicionar('Tortinha de Limão com Morango',10)">
+
                 Adicionar
+
             </button>
 
         </div>
 
 
 
-        <!-- BOLO NINHO COM MORANGO -->
+        <!-- BOLO DE NINHO COM MORANGO -->
 
         <div class="card">
 
             <img
-                src="ninho-morango.jpg"
-                alt="Bolo de Ninho com Morango"
-            >
+                src="./ninho-morango.jpg"
+                alt="Bolo de Ninho com Morango">
 
             <h3>
                 Bolo de Ninho com Morango
             </h3>
 
             <p>
-                Bolo delicioso de Ninho com morangos.
+                Creme de Ninho com morangos deliciosos.
             </p>
 
             <h4>
@@ -336,9 +316,10 @@
             </h4>
 
             <button
-                onclick="adicionar('Bolo de Ninho com Morango',15)"
-            >
+                onclick="adicionar('Bolo de Ninho com Morango',15)">
+
                 Adicionar
+
             </button>
 
         </div>
@@ -350,9 +331,8 @@
         <div class="card">
 
             <img
-                src="tortinha-brigadeiro.jpg"
-                alt="Tortinha de Brigadeiro"
-            >
+                src="./tortinha-brigadeiro.jpg"
+                alt="Tortinha de Brigadeiro">
 
             <h3>
                 Tortinha de Brigadeiro
@@ -367,23 +347,23 @@
             </h4>
 
             <button
-                onclick="adicionar('Tortinha de Brigadeiro',10)"
-            >
+                onclick="adicionar('Tortinha de Brigadeiro',10)">
+
                 Adicionar
+
             </button>
 
         </div>
 
 
 
-        <!-- BOLO DE CENOURA -->
+        <!-- BOLO DE CENOURA COM BRIGADEIRO -->
 
         <div class="card">
 
             <img
-                src="cenoura-brigadeiro.jpg"
-                alt="Bolo de Cenoura com Brigadeiro"
-            >
+                src="./cenoura-brigadeiro.jpg"
+                alt="Bolo de Cenoura com Brigadeiro">
 
             <h3>
                 Bolo de Cenoura com Brigadeiro
@@ -398,30 +378,30 @@
             </h4>
 
             <button
-                onclick="adicionar('Bolo de Cenoura com Brigadeiro',12)"
-            >
+                onclick="adicionar('Bolo de Cenoura com Brigadeiro',12)">
+
                 Adicionar
+
             </button>
 
         </div>
 
 
 
-        <!-- TORTINHA DE MARACUJÁ -->
+        <!-- TORTINHA DE MARACUJÁ COM CHOCOLATE -->
 
         <div class="card">
 
             <img
-                src="tortinha-maracuja-chocolate.jpg"
-                alt="Tortinha de Maracujá com Chocolate"
-            >
+                src="./tortinha-maracuja-chocolate.jpg"
+                alt="Tortinha de Maracujá com Chocolate">
 
             <h3>
                 Tortinha de Maracujá com Chocolate
             </h3>
 
             <p>
-                Tortinha de maracujá com cobertura de chocolate.
+                Maracujá com chocolate em uma combinação deliciosa.
             </p>
 
             <h4>
@@ -429,9 +409,10 @@
             </h4>
 
             <button
-                onclick="adicionar('Tortinha de Maracujá com Chocolate',10)"
-            >
+                onclick="adicionar('Tortinha de Maracujá com Chocolate',10)">
+
                 Adicionar
+
             </button>
 
         </div>
@@ -443,43 +424,10 @@
 
 
 
-<!-- ================= ENCOMENDAS ================= -->
-
-<section id="encomendas">
-
-    <h2>
-        🍰 Aceitamos Encomendas!
-    </h2>
-
-
-    <p>
-
-        Aceitamos encomendas de bolos de 1 kg,
-        preparados com muito carinho para deixar
-        seu momento ainda mais especial.
-
-    </p>
-
-
-    <a
-        class="whatsapp"
-        href="https://wa.me/5514996885936"
-        target="_blank"
-    >
-
-        <i class="fa-brands fa-whatsapp"></i>
-
-        Fazer Encomenda
-
-    </a>
-
-</section>
-
-
-
 <!-- ================= AVALIAÇÕES ================= -->
 
 <section id="avaliacoes">
+
 
     <h2>
         Clientes Felizes
@@ -524,6 +472,7 @@
 
     </div>
 
+
 </section>
 
 
@@ -531,6 +480,7 @@
 <!-- ================= CONTATO ================= -->
 
 <section id="contato">
+
 
     <h2>
         Faça seu Pedido
@@ -546,15 +496,14 @@
 
     <a
         class="whatsapp"
-        href="https://wa.me/5514996885936"
-        target="_blank"
-    >
+        href="https://wa.me/5514996885936">
 
         <i class="fa-brands fa-whatsapp"></i>
 
         Pedir Agora
 
     </a>
+
 
 </section>
 
@@ -579,6 +528,7 @@
 
 <div id="carrinho">
 
+
     <h2>
         Seu Carrinho
     </h2>
@@ -588,28 +538,32 @@
 
 
     <div id="total">
+
         Total: R$ 0,00
+
     </div>
 
 
     <button
         class="finalizar"
-        onclick="finalizarPedido()"
-    >
+        onclick="finalizarPedido()">
+
         Finalizar Pedido
+
     </button>
 
 
-    <br>
-    <br>
+    <br><br>
 
 
     <button
         class="finalizar"
-        onclick="fecharCarrinho()"
-    >
+        onclick="fecharCarrinho()">
+
         Fechar
+
     </button>
+
 
 </div>
 
@@ -617,7 +571,7 @@
 
 <!-- ================= JAVASCRIPT ================= -->
 
-<script src="script.js"></script>
+<script src="./script.js"></script>
 
 
 </body>
